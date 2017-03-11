@@ -125,6 +125,11 @@ body {
        }
 }
 
+#focusedInput{
+  height: 25%;
+
+}
+
 footer {
   background: #2C3E50;
   clear: both;
