@@ -19,6 +19,27 @@ form.login {
   background-size: cover;
 }
 
+/*to make the footer sticky*/
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+
+
 footer {
   background: #2C3E50;
   clear: both;
