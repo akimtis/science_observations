@@ -15,6 +15,11 @@ form.login {
   margin-top: 50px;
 }
 
+/*hides feild in login forms*/
+#studentorteacher{
+  visibility: hidden;
+}
+
 /*for backgrounds to specific pages*/
 /*#teacher_signup{
   background: url("../images/aerial_shrubland.jpg")no-repeat center center fixed; 

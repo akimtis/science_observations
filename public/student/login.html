@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../stylesheets/style.css" media="screen" title="no title">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/navbar.css" media="screen" title="no title">
+<!--   <link rel="stylesheet" type="text/css" href="../stylesheets/navbar.css" media="screen" title="no title"> -->
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
@@ -45,64 +45,6 @@
             </ul>
           </li>
 
-          <div class="container">
-
-    <li>
-      <div class="input-group" id="adv-search">
-        <input type="text" class="form-control" placeholder="Search for Projects"/>
-          <div class="input-group-btn">
-            <div class="btn-group" role="group">
-              <div class="dropdown dropdown-lg">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
-                  <div class="dropdown-menu dropdown-menu-right" role="menu">
-                      <form class="form-horizontal" role="form">
-                        <div class="form-group">
-                          <label for="filter">Filter by</label>
-                          <select class="form-control">
-                            <option value="0" selected>Location</option>
-                            <option value="1">Date</option>
-                            <option value="2">Project Name</option>
-                            <option value="3">Class</option>
-                            <option value="4">Username</option>
-                          </select>
-                        </div>
-                        <div class="form-group">
-                          <label for="contain">Author</label>
-                          <input class="form-control" type="text" />
-                        </div>
-                        <div class="form-group">
-                          <label for="contain">Contains the words</label>
-                          <input class="form-control" type="text" />
-                        </div>
-                          <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                      </form>
-                  </div>
-              </div>
-              <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-            </div>
-          </div>
-      </div>
-    </li>
-    <!--   </div>
-    </div> -->
-
-
-         <!--  <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search for a Project">
-            </div>
-            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search By <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-            <! <li role="separator" class="divider"></li> -->
-              <!-- <li><a href="#">Any</a></li>
-              <li><a href="#">Class</a></li>
-              <li><a href="#">Location</a></li>
-              <li><a href="#">Date</a></li>
-              <li><a href="#">Subject</a></li>
-            </ul>
-          </li>
-        </form>  -->
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Contact</a></li>
@@ -130,6 +72,13 @@
             <div class="col-lg-10">
             <input class="form-control" id="password-input" placeholder="Password" type="text">
             </div>
+
+            <div class="form-group" id="studentorteacher">
+              <label for="inputPassword" class="col-lg-2 control-label">Studentorteacher</label>
+              <div class="col-lg-10">
+              <input type="text" class="form-control" id="studentorteacher" value="student">
+            </div>
+
           </div>
           </fieldset>
         </form>
