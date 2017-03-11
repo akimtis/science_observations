@@ -3,16 +3,16 @@ form.login {
   margin-top: 50px;
 }
 
-#student_signup{
-  background: url("../images/reef.jpg")no-repeat center center fixed; 
+#teacher_signup{
+  background: url("../images/aerial_shrubland.jpg")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#teacher_signup{
-  background: url("../images/aerial_shrubland.jpg")no-repeat center center fixed; 
+#student_signup{
+  background: url("../images/reef.jpg")no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,4 +25,5 @@ footer {
   color: white;
   text-align: center;
   height: 50px;
+  line-height: 50px;
   }
