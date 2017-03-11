@@ -2,3 +2,27 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+#student_signup{
+  background: url("../images/reef.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#teacher_signup{
+  background: url("../images/aerial_shrubland.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer {
+  background: #2C3E50;
+  clear: both;
+  color: white;
+  text-align: center;
+  height: 50px;
+  }

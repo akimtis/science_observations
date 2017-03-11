@@ -59,6 +59,25 @@ module.exports = function(app) {
     res.redirect("/");
   });
 
+   ////GET Route for entering observations
+app.get("/api/fieldnotes", function(req, res) {
+    console.log(req.body);
+    res.render('notes');
+  });
+
+  //POST Route for entering observations
+  app.post("/api/fieldnotes", function(req, res) {
+    console.log(req.body);
+    /*db.User.create({
+      email: req.body.email,
+      password: req.body.password
+    }).then(function() {
+      res.redirect(307, "/api/login");
+    }).catch(function(err) {
+      res.json(err);
+    });*/
+  });
+
   // Route for getting some data about our user to be used client side
   app.get("/api/user_data", function(req, res) {
     if (!req.user) {
